@@ -23,6 +23,9 @@
         'horseday': new Howl({
             urls: ['/audio/horseday1.mp3']
         }),
+        'horseday2': new Howl({
+            urls: ['/audio/horseday2.mp3']
+        }),
         'idonot': new Howl({
             urls: ['/audio/idonot.mp3']
         }),
@@ -38,7 +41,7 @@
         'okayokayokay': new Howl({
             urls: ['/audio/okayokayokay.mp3']
         }),
-        'okthelist': new Howl({
+        'onthelist': new Howl({
             urls: ['/audio/onthelist.mp3']
         }),
         'pushingmanysprints': new Howl({

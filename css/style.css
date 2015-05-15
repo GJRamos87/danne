@@ -1,9 +1,41 @@
+body {
+    background: url('/imgs/background.gif');
+    font-family: arial, sans-serif;
+    margin: 0;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+header, footer {
+    color: #fff;
+}
+footer {
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+footer p{ 
+    margin: 5px 10px;
+}
+footer p:nth-child(1) {
+    float: left;
+}
+footer p:nth-child(2) {
+    float: right;
+}
 .ticket {
-    background: url('/imgs/blue.gif');
+    background: url('/imgs/green.png') top left no-repeat;
     display: inline-block;
     height: 181px;
     overflow: hidden;
     width: 180px;
+}
+.ticket:nth-child(10n-5),
+.ticket:nth-child(10n-6),
+.ticket:nth-child(10n-7),
+.ticket:nth-child(10n-8),
+.ticket:nth-child(10n-9) {
+    background: url('/imgs/blue.png');
 }
 .ticketName {
     margin-top: 50%;
