@@ -7,6 +7,7 @@
 }
 .ticketName {
     margin-top: 50%;
+    padding: 10px;
     pointer-events: none;
     text-align: center;
     transform: translate(0, -50%)
