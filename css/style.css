@@ -1,0 +1,13 @@
+.ticket {
+    background: url('/imgs/blue.gif');
+    display: inline-block;
+    height: 181px;
+    overflow: hidden;
+    width: 180px;
+}
+.ticketName {
+    margin-top: 50%;
+    pointer-events: none;
+    text-align: center;
+    transform: translate(0, -50%)
+}
