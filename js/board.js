@@ -3,7 +3,7 @@
 
     var sounds = {
         'alex': new Howl({
-            urls: ['/audio/alex.mp3']
+            urls: ['../audio/alex.mp3']
         }),
         'alright': new Howl({
             urls: ['/audio/alright.mp3']
