@@ -3,7 +3,7 @@
 
     var sounds = {
         'alex': new Howl({
-            urls: ['../audio/alex.mp3']
+            urls: ['/audio/alex.mp3']
         }),
         'alright': new Howl({
             urls: ['/audio/alright.mp3']
@@ -71,6 +71,33 @@
         'yes': new Howl({
             urls: ['/audio/yes1.mp3']
         }),
+            //round 2
+        'alwayshot':new Howl({urls: ['/audio/alwayshot.mp3']}),
+        'buyyouashot':new Howl({urls: ['/audio/buyyouashot.mp3']}),
+        'consider':new Howl({urls: ['/audio/consider.mp3']}),
+        'deployment':new Howl({urls: ['/audio/deployment.mp3']}),
+        'eightpeople':new Howl({urls: ['/audio/eightpeople.mp3']}),
+        'fordaysonend':new Howl({urls: ['/audio/fordaysonend.mp3']}),
+        'iam':new Howl({urls: ['/audio/iam.mp3']}),
+        'iinnnna':new Howl({urls: ['/audio/iinnnna.mp3']}),
+        'ingarfields':new Howl({urls: ['/audio/ingarfields.mp3']}),
+        'longstoryshort':new Howl({urls: ['/audio/longstoryshort.mp3']}),
+        'middlefinger':new Howl({urls: ['/audio/middlefinger.mp3']}),
+        'mrmunter':new Howl({urls: ['/audio/mrmunter.mp3']}),
+        'ofcourse':new Howl({urls: ['/audio/ofcourse.mp3']}),
+        'ohboy':new Howl({urls: ['/audio/ohboy.mp3']}),
+        'ohmark':new Howl({urls: ['/audio/ohmark.mp3']}),
+        'onegiantgarfield':new Howl({urls: ['/audio/onegiantgarfield.mp3']}),
+        'practice':new Howl({urls: ['/audio/practice.mp3']}),
+        'really':new Howl({urls: ['/audio/really.mp3']}),
+        'shotshotshot':new Howl({urls: ['/audio/shotshotshot.mp3']}),
+        'thanksalex':new Howl({urls: ['/audio/thanksalex.mp3']}),
+        'toqa':new Howl({urls: ['/audio/toqa.mp3']}),
+        'twothings':new Howl({urls: ['/audio/twothings.mp3']}),
+        'wroteacomment':new Howl({urls: ['/audio/wroteacomment.mp3']}),
+        'yay':new Howl({urls: ['/audio/yay.mp3']}),
+        'yesyesyes':new Howl({urls: ['/audio/yesyesyes.mp3']}),
+        'youthful':new Howl({urls: ['/audio/youthful.mp3']}),
     };
 
     board.addEventListener('click', function(e){
