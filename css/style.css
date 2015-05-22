@@ -12,6 +12,7 @@ header, footer {
 footer {
     background-color: rgba(0,0,0,0.5);
     overflow: hidden;
+    width: 100%;
 }
 footer p{ 
     margin: 5px 10px;
@@ -46,4 +47,10 @@ footer p:nth-child(2) {
     pointer-events: none;
     text-align: center;
     transform: translate(0, -50%)
+}
+.head {
+    max-width: 200px;
+}
+.munter {
+    float: right;
 }

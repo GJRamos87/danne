@@ -1,5 +1,7 @@
 (function() {
-    var board = document.querySelector('.board');
+    var board = document.querySelector('.board'),
+        munter = document.querySelector('.munter'),
+        alex =   document.querySelector('.alexhead');
 
     var sounds = {
         'alex': new Howl({
@@ -71,7 +73,7 @@
         'yes': new Howl({
             urls: ['/audio/yes1.mp3']
         }),
-            //round 2
+        //round 2
         'alwayshot':new Howl({urls: ['/audio/alwayshot.mp3']}),
         'buyyouashot':new Howl({urls: ['/audio/buyyouashot.mp3']}),
         'consider':new Howl({urls: ['/audio/consider.mp3']}),
@@ -98,6 +100,9 @@
         'yay':new Howl({urls: ['/audio/yay.mp3']}),
         'yesyesyes':new Howl({urls: ['/audio/yesyesyes.mp3']}),
         'youthful':new Howl({urls: ['/audio/youthful.mp3']}),
+        //Munter and Alex
+        'alexjoke': new Howl({urls:['/audio/alexjokefail.mp3']}),
+        'munter': new Howl({urls:['/audio/munterannoying.mp3']})
     };
 
     board.addEventListener('click', function(e){
@@ -107,4 +112,14 @@
             sounds[e.target.classList[1]].play();
         }
     });
+
+    munter.addEventListener('click', function(e){
+        sounds['munter'].play();
+        
+    })
+    alex.addEventListener('click', function(e){
+        sounds['alexjoke'].play();
+    })
+
+
 })();
