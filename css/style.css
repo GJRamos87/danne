@@ -4,7 +4,6 @@ body {
     margin: 0;
 }
 .container {
-    max-width: 1000px;
     margin: 0 auto;
 }
 header, footer {
@@ -22,6 +21,10 @@ footer p:nth-child(1) {
 }
 footer p:nth-child(2) {
     float: right;
+}
+.board {
+    padding: 0;
+    text-align: center;
 }
 .ticket {
     background: url('/imgs/green.png') top left no-repeat;
