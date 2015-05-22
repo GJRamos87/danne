@@ -29,6 +29,7 @@ footer p:nth-child(2) {
 }
 .ticket {
     background: url('/imgs/green.png') top left no-repeat;
+    cursor: pointer;
     display: inline-block;
     height: 181px;
     overflow: hidden;
@@ -49,6 +50,7 @@ footer p:nth-child(2) {
     transform: translate(0, -50%)
 }
 .head {
+    cursor: pointer;
     max-width: 200px;
 }
 .munter {
