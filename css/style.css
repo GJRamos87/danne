@@ -1,5 +1,5 @@
 body {
-    background: url('/imgs/background.gif');
+    background: url('imgs/background.gif');
     font-family: arial, sans-serif;
     margin: 0;
 }
@@ -28,7 +28,7 @@ footer p:nth-child(2) {
     text-align: center;
 }
 .ticket {
-    background: url('/imgs/green.png') top left no-repeat;
+    background: url('imgs/green.png') top left no-repeat;
     cursor: pointer;
     display: inline-block;
     height: 181px;
@@ -40,7 +40,7 @@ footer p:nth-child(2) {
 .ticket:nth-child(10n-7),
 .ticket:nth-child(10n-8),
 .ticket:nth-child(10n-9) {
-    background: url('/imgs/blue.png');
+    background: url('imgs/blue.png');
 }
 .ticketName {
     margin-top: 50%;
